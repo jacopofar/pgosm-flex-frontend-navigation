@@ -1,5 +1,7 @@
 # In browser route calculation
 
+![A map of Berlin with an highlighted route, from geojson.io](screenshot.png)
+
 This repo shows how it's possible to calculate the shortest path on a real city (Berlin, Germany) completely in the browser.
 
 The memory footprint is low (40,128K according to Chrome task manager) and the speed not stellar but usable (8 seconds to parse the JSONs and generate the graph, less than 1 second for the shortest path calculation and projection).
@@ -21,4 +23,4 @@ If you want, using `scripts/navigate.py` it's possible to generate a shortest pa
 
 # Third step:
 
-Use `build_frontend.sh` to build the frontend and start a server, visiting the page the necessary JSON files will be loaded into a `Graphology` instance, and the shortest path will be calculated. In the console you get a geoJSON and cna be validated
+Use `build_frontend.sh` to build the frontend and start a server, visiting the page the necessary JSON files will be loaded into a `Graphology` instance, and the shortest path will be calculated. In the console you get a geoJSON that can be loaded in QGIS or [geojson.io](https://geojson.io).
