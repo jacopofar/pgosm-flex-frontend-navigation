@@ -1,0 +1,12 @@
+# dotenv
+.env
+# postgis mount folder
+pgdata/
+# input and output of the scripts
+*.pbf
+*.json
+# frontend stuff
+!package.json
+bundle.js
+bundle.js.map
+node_modules/

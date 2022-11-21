@@ -1,0 +1,4 @@
+networkx==2.8.8
+psycopg==3.1.4
+pyproj==3.4.0
+shapely==2.0b2
